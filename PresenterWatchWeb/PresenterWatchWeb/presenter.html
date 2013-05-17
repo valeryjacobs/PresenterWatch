@@ -36,6 +36,8 @@
         var endTime = new Date();
         endTime.setMinutes(endTime.getMinutes() + 12);
         var totalSeconds = (endTime - startTime) / 1000;
+        var intervalListener;
+        var remainingSeconds;
 
         var w = 800,                        //width
         h = 800,                            //height
@@ -61,7 +63,7 @@
         render = function (data) {
             var currentTime = new Date();
 
-            var remainingSeconds = Math.round((endTime - currentTime) / 1000);
+            remainingSeconds = Math.round((endTime - currentTime) / 700);
 
             if (remainingSeconds < 0) return;
 
@@ -162,16 +164,9 @@
 
         };
         // Show clock right away
-        render(fields());
+        //render(fields());
 
-        setInterval(function () {
-            var data;
-            data = fields();
-
-            piedata = [{ "label": "", "value": 10 },
-                           { "label": "", "value": 70 }];
-            return render(data);
-        }, 1000);
+        
 
 
 
@@ -197,18 +192,31 @@
 
         chat.client.start = function (duration) {
             console.log(duration);
+
+            startTime = new Date();
+            endTime = new Date();
+            endTime.setMinutes(endTime.getMinutes() + duration);
+            totalSeconds = (endTime - startTime) / 1000;
+
+            intervalListener = self.setInterval(function () {
+                var data;
+                data = fields();
+                return render(data);
+            }, 1000);
         };
 
         chat.client.stop = function () {
-            console.log("stop");
+            window.clearInterval(intervalListener);
         };
 
         chat.client.add5 = function () {
-            console.log("add5");
+            totalSeconds += 300;
+            remainingSeconds += 300;
         };
 
         chat.client.add10 = function () {
-            console.log("add10");
+            totalSeconds += 600;
+            remainingSeconds += 600;
         };
 
         chat.client.getAttention = function () {
@@ -221,17 +229,17 @@
 
         // Start the connection
         $.connection.hub.start().done(function () {
-            $("#broadcast").click(function () {
-                // Call the chat method on the server
-                chat.server.send($('#msg').val());
-            });
+            //$("#broadcast").click(function () {
+            //    // Call the chat method on the server
+            //    chat.server.send($('#msg').val());
+            //});
         });
     });
 </script>
   
   <div>
-    <input type="text" id="msg" />
-<input type="button" id="broadcast" value="broadcast" />
+   
+
 
 <ul id="messages">
 </ul>

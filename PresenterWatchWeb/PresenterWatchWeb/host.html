@@ -162,14 +162,11 @@
 
         };
         // Show clock right away
-        render(fields());
+        //render(fields());
 
         setInterval(function () {
             var data;
             data = fields();
-
-            piedata = [{ "label": "", "value": 10 },
-                           { "label": "", "value": 70 }];
             return render(data);
         }, 1000);
 
@@ -202,7 +199,7 @@
                 chat.server.send($('#msg').val());
             });
 
-            $("#sendcomment").click(function () { chat.server.sendComment($('#comment').val());});
+            $("#sendcomment").click(function () { chat.server.sendComment($('#sendcomment').val()); });
             $("#getattention").click(function () { chat.server.getAttention();});
             $("#start").click(function () { chat.server.start($('#duration').val());});
             $("#stop").click(function () { chat.server.stop();});
