@@ -103,9 +103,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\PresenterWatchWeb\PresenterWatchWeb.csproj">
+    <ProjectReference Include="..\PresenterWatchWeb\SpeakerWatchWeb.csproj">
       <Project>{8081CCD1-C673-41FF-9956-4E1B2D3B6969}</Project>
-      <Name>PresenterWatchWeb</Name>
+      <Name>SpeakerWatchWeb</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

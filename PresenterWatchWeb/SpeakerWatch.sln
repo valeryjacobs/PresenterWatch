@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PresenterWatchWeb", "PresenterWatchWeb\PresenterWatchWeb.csproj", "{8081CCD1-C673-41FF-9956-4E1B2D3B6969}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpeakerWatchWeb", "PresenterWatchWeb\SpeakerWatchWeb.csproj", "{8081CCD1-C673-41FF-9956-4E1B2D3B6969}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PresenterWatchWeb.Tests", "PresenterWatchWeb.Tests\PresenterWatchWeb.Tests.csproj", "{112E1BBD-6AE8-474B-8969-3DE5D688B629}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpeakerWatchWeb.Tests", "PresenterWatchWeb.Tests\SpeakerWatchWeb.Tests.csproj", "{112E1BBD-6AE8-474B-8969-3DE5D688B629}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -12,5 +12,35 @@ namespace PresenterWatchWeb.Hubs
         {
             Clients.All.addMessage(message);
         }
+
+        public void Start(int duration)
+        {
+            Clients.All.start(duration);
+        }
+
+        public void Stop()
+        {
+            Clients.All.stop();
+        }
+
+        public void Add5()
+        {
+            Clients.All.add5();
+        }
+
+        public void Add10()
+        {
+            Clients.All.add10();
+        }
+
+        public void GetAttention()
+        {
+            Clients.All.getAttention();
+        }
+
+        public void Comment()
+        {
+            Clients.All.getAttention();
+        }
     }
 }
