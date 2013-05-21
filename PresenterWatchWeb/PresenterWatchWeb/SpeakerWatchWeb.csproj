@@ -243,6 +243,14 @@
     <Content Include="Content\themes\base\minified\jquery.ui.tabs.min.css" />
     <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
     <Content Include="host.html" />
+    <Content Include="Images\Add-New.png" />
+    <Content Include="Images\Alarm.png" />
+    <Content Include="Images\Conference-Speaker.png" />
+    <Content Include="Images\Device-Bell.png" />
+    <Content Include="Images\Message.png" />
+    <Content Include="Images\SpeakerWatch.png" />
+    <Content Include="Images\Stop.png" />
+    <Content Include="Images\Warning-Message.png" />
     <Content Include="presenter.html" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />

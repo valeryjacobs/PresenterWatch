@@ -53,6 +53,6 @@ C:\Users\Administrator\Documents\GitHub\PresenterWatch\PresenterWatchWeb\Present
 C:\Users\Administrator\Documents\GitHub\PresenterWatch\PresenterWatchWeb\PresenterWatchWeb\bin\DotNetOpenAuth.OAuth.xml
 C:\Users\Administrator\Documents\GitHub\PresenterWatch\PresenterWatchWeb\PresenterWatchWeb\bin\DotNetOpenAuth.OpenId.xml
 C:\Users\Administrator\Documents\GitHub\PresenterWatch\PresenterWatchWeb\PresenterWatchWeb\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
-C:\Users\Administrator\Documents\GitHub\PresenterWatch\PresenterWatchWeb\PresenterWatchWeb\obj\Release\PresenterWatchWeb.dll
-C:\Users\Administrator\Documents\GitHub\PresenterWatch\PresenterWatchWeb\PresenterWatchWeb\obj\Release\PresenterWatchWeb.pdb
-C:\Users\Administrator\Documents\GitHub\PresenterWatch\PresenterWatchWeb\PresenterWatchWeb\obj\Release\SpeakerWatchWeb.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\GitHub\PresenterWatch\PresenterWatchWeb\PresenterWatchWeb\obj\Debug\SpeakerWatchWeb.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\GitHub\PresenterWatch\PresenterWatchWeb\PresenterWatchWeb\obj\Debug\PresenterWatchWeb.dll
+C:\Users\Administrator\Documents\GitHub\PresenterWatch\PresenterWatchWeb\PresenterWatchWeb\obj\Debug\PresenterWatchWeb.pdb

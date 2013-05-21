@@ -38,9 +38,9 @@ namespace PresenterWatchWeb.Hubs
             Clients.All.getAttention();
         }
 
-        public void SendComment()
+        public void sendmessage()
         {
-            Clients.All.getAttention();
+            Clients.All.sendmessage();
         }
     }
 }
